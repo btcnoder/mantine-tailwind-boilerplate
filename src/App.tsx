@@ -3,7 +3,7 @@ import { MantineProvider, Text } from '@mantine/core'
 
 function App() {
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
+    <MantineProvider withNormalizeCSS withGlobalStyles>
       <div className="container mx-auto px-4 py-10">
         <Text>Welcome to Mantine!</Text>
         <div className="mx-8 grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -20,4 +20,5 @@ function App() {
     </MantineProvider>
   )
 }
+
 export default App
