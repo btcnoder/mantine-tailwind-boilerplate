@@ -5,9 +5,9 @@
  */
 
 const types = [
-  'feat', // 新功能 feature
-  'fix', // 修复 bug
-  'docs', // 文档注释
+  'feat', // new feature
+  'fix', // fix bug
+  'docs', // document
   'style', // 代码格式(不影响代码运行的变动)
   'refactor', // 重构(既不增加新功能，也不是修复bug)
   'perf', // 性能优化
@@ -19,9 +19,11 @@ const types = [
 
 const commitTypeRules = [2, 'always', types]
 
+// eslint-disable-next-line no-undef
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'type-enum': commitTypeRules
   }
 }
+

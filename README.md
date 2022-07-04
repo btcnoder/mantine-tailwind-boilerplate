@@ -4,7 +4,7 @@ The code repository is composed of mantine + tailwindcss + vite, which is a set 
 
 ### keypoint
 
-`tailwind.config.js`file, set preflight false
+`tailwind.config.ts`file, set preflight false
 
 ```
 {
