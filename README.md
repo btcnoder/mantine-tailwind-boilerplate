@@ -8,9 +8,9 @@ The code repository is composed of mantine + tailwindcss + vite, which is a set 
 
 ```
 {
-...
-corePlugins: { preflight: false }
-...
+  xxx,
+  corePlugins: { preflight: false },
+  xxx,
 }
 ```
 
@@ -19,9 +19,10 @@ corePlugins: { preflight: false }
 ```
 function App() {
 	return (
-    <MantineProvider withNormalizeCSS withGlobalStyles >
-			...
-    </MantineProvider>
+      <MantineProvider
+          withNormalizeCSS withGlobalStyles >
+        ...
+      </MantineProvider>
   )
 }
 ```
