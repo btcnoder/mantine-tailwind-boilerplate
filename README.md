@@ -18,11 +18,13 @@ The code repository is composed of mantine + tailwindcss + vite, which is a set 
 
 ```
 function App() {
-	return (
-      <MantineProvider
-          withNormalizeCSS withGlobalStyles >
-        ...
-      </MantineProvider>
+  return (
+    <MantineProvider
+      withNormalizeCSS
+      withGlobalStyles
+    >
+      ...
+    </MantineProvider>
   )
 }
 ```
