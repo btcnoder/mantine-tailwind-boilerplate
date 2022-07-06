@@ -9,8 +9,7 @@
     "commitMessage": "chore: release v${version}"
   },
   "github": {
-    "release": true,
-    "draft": false
+    "release": true
   },
   "npm": {
     "publish": false
